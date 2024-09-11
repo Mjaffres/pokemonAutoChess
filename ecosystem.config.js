@@ -17,7 +17,7 @@ module.exports = {
   }],
   deploy: {
     production: {
-      "key"  : "C:/Users/maxim/.ssh/id_rsa.pub",
+      "key"  : "C:/Users/maxim/.ssh/id_rsa",
       "user": "root",
       "host": ["89.116.110.190"],
       "ref": "origin/prod",
