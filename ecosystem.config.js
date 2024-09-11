@@ -18,10 +18,10 @@ module.exports = {
   deploy: {
     production: {
       "user": "root",
-      "host": ["146.190.113.96", "143.198.101.153", "164.92.98.9"],
+      "host": ["89.116.110.190"],
       "ref": "origin/prod",
-      "repo": "https://github.com/keldaanCommunity/pokemonAutoChess.git",
-      "path": "/home/deploy",
+      "repo": "https://github.com/Mjaffres/pokemonAutoChess.git",
+      "path": "/home/pac",
       "post-deploy": "npm install && npm run assetpack && npm run build"
     }
   }
